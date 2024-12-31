@@ -8,7 +8,7 @@ df = df.dropna()
 df = df.rename(columns=df.iloc[0]).drop(df.index[0]).drop('Sr.No.', axis=1)
 print(df.head())
 
-#exporting datafram to csv file
+#exporting datafram to csv file 
 export_df = df.to_csv(r'newnewfilefile.csv')
 
 # exporting datafram to excel file
@@ -141,3 +141,5 @@ with open('newwritingfile', 'r+') as f:
 with open('newwritingfile', 'w+') as f:
     f.write('Helloe')
 
+# import aiohttp
+# SSNSelect * from Repository 
